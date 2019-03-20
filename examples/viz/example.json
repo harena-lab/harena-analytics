@@ -1,0 +1,87 @@
+{
+    "data": [
+        {
+            "type": "sankey",
+            "domain": {"x": [0,1],
+                       "y": [0,1]
+            },
+            "orientation": "h",
+            "valueformat": ".0f",
+            "valuesuffix": "",
+            "node": {
+                "pad": 15,
+                "thickness": 15,
+                "line": {
+                    "color": "black",
+                    "width": 0.5
+                },
+                "label": [
+                    "Hypotesis 1",
+                    "Hypotesis 2",
+                    "Hypotesis 3",
+                    "Hypotesis 4",
+                    "Hypotesis 5",
+                    "Hypotesis 1",
+                    "Hypotesis 2",
+                    "Hypotesis 3",
+                    "Hypotesis 4",
+                    "Hypotesis 5"
+                ],
+                "color": [
+                    "rgba(31, 119, 180, 0.8)",
+                    "rgba(255, 127, 14, 0.8)",
+                    "magenta"]
+            },
+            "link": {
+                "source": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "target": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    1,
+                    2,
+                    4,
+                    5,
+                    5
+                ],
+                "value": [
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100,
+                    100
+                ],
+                "color": [
+                    "rgba(0,0,96,0.2)",
+                    "lightgreen",
+                    "goldenrod"
+                ],
+                "label": [
+                    "Execution 1",
+                    "Execution 2",
+                    "Execution 3",
+                    "Execution 4",
+                    "Execution 5"
+                ]
+            }
+        }]
+    
+}
