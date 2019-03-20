@@ -14,6 +14,8 @@ def vis_network(nodes, edges, physics=False):
     html = """
     <html>
     <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">    
       <script type="text/javascript" src="../../../resources/scripts/graphdrawer/vis.js"></script>
       <link href="../../../resources/scripts/graphdrawer/vis.css" rel="stylesheet" type="text/css">
     </head>
@@ -52,8 +54,13 @@ def vis_network(nodes, edges, physics=False):
               smooth: {{enabled: false}}
           }},
           physics: {{
-              enabled: {physics}
-          }}
+              enabled: {physics},
+              stabilization: false,              
+          }},
+         layout: {{
+	    randomSeed: 191006,
+	    improvedLayout: false
+         }}          
       }};
 
       var network = new vis.Network(container, data, options);
