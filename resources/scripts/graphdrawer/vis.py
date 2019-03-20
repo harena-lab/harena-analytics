@@ -2,12 +2,20 @@ from IPython.display import IFrame
 import json
 import uuid
 
+
+#var nodes = [{"label": "Coca Cola", "id": 4014, "title": "{'name': 'Coca Cola'}", "group": "Manufacturer"}, 
+#             {"label": "Coke Zero", "id": 4012, "title": "{'name': 'Coke Zero', 'calories': 0}", "group": "Drink"}, 
+#             {"label": "Nicole",    "id": 4013, "title": "{'age': 24, 'name': 'Nicole'}", "group": "Person"}, {"label": "Mountain Dew", "id": 4011, "title": "{'name': 'Mountain Dew', 'calories': 9000}", "group": "Drink"}, {"label": "Drew", "id": 4010, "title": "{'age': 20, 'name': 'Drew'}", "group": "Person"}, {"label": "Pepsi", "id": 4015, "title": "{'name': 'Pepsi'}", "group": "Manufacturer"}];
+#       var edges = [{"from": 4014, "label": "MAKES", "to": 4012}, {"from": 4013, "label": "LIKES", "to": 4011}, {"from": 4013, "label": "LIKES", "to": 4012}, {"from": 4010, "label": "LIKES", "to": 4011}, {"from": 4015, "label": "MAKES", "to": 4011}];
+
+
+
 def vis_network(nodes, edges, physics=False):
     html = """
     <html>
     <head>
-      <script type="text/javascript" src="vis.js"></script>
-      <link href="vis.css" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="../../../resources/scripts/graphdrawer/vis.js"></script>
+      <link href="../../../resources/scripts/graphdrawer/vis.css" rel="stylesheet" type="text/css">
     </head>
     <body>
 
@@ -56,64 +64,21 @@ def vis_network(nodes, edges, physics=False):
     """
 
     unique_id = str(uuid.uuid4())
-    html = html.format(id=unique_id, nodes=json.dumps(nodes), edges=json.dumps(edges), physics=json.dumps(physics))
+    html      = html.format(id=unique_id, nodes=json.dumps(nodes), edges=json.dumps(edges), physics=json.dumps(physics))
 
-    filename = "figure/graph-{}.html".format(unique_id)
+    filename = "temp/graph-{}.html".format(unique_id)
 
-    file = open(filename, "w")
+    file = open(filename, "w+")
     file.write(html)
     file.close()
 
     return IFrame(filename, width="100%", height="400")
 
-def draw(graph, options, physics=False, limit=100):
+def draw(nodes, edges,physics=False, limit=100):
     # The options argument should be a dictionary of node labels and property keys; it determines which property
     # is displayed for the node label. For example, in the movie graph, options = {"Movie": "title", "Person": "name"}.
     # Omitting a node label from the options dict will leave the node unlabeled in the visualization.
     # Setting physics = True makes the nodes bounce around when you touch them!
-    query = """
-    MATCH (n)
-    WITH n, rand() AS random
-    ORDER BY random
-    LIMIT {limit}
-    OPTIONAL MATCH (n)-[r]->(m)
-    RETURN n AS source_node,
-           id(n) AS source_id,
-           r,
-           m AS target_node,
-           id(m) AS target_id
-    """
 
-    data = graph.run(query, limit=limit)
-
-    nodes = []
-    edges = []
-
-    def get_vis_info(node, id):
-        node_label = list(node.labels())[0]
-        prop_key = options.get(node_label)
-        vis_label = node.properties.get(prop_key, "")
-
-        return {"id": id, "label": vis_label, "group": node_label, "title": repr(node.properties)}
-
-    for row in data:
-        source_node = row[0]
-        source_id = row[1]
-        rel = row[2]
-        target_node = row[3]
-        target_id = row[4]
-
-        source_info = get_vis_info(source_node, source_id)
-
-        if source_info not in nodes:
-            nodes.append(source_info)
-
-        if rel is not None:
-            target_info = get_vis_info(target_node, target_id)
-
-            if target_info not in nodes:
-                nodes.append(target_info)
-
-            edges.append({"from": source_info["id"], "to": target_info["id"], "label": rel.type()})
 
     return vis_network(nodes, edges, physics=physics)
