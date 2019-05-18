@@ -8,6 +8,7 @@ Ex: (1, 0, 0) = Tem lombriga
 
 **Exames**: Indica nível sanguineo e capacidade pulmonar do zumbi
 Ex: (190, 54) => nível sanguineo = 190 e capacidade pulmonar = 54
+
 nível sanguineo: normal por volta de 150
 capacidade pulmonar: normal por volta de 50
 
