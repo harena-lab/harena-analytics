@@ -1,3 +1,6 @@
+# Data files of the repository
+executions-bkp.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
