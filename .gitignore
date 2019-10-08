@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 # Data files of the repository
 executions-bkp.json
+=======
+# Data files in repositorie
+executions-bkp-30-08-19.json
+executions-experiments-zv.json
+>>>>>>> 442725d2109ea83da5f03c52141bf281b0031a8e
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
