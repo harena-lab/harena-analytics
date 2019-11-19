@@ -1,6 +1,8 @@
 # Data files in repositorie
 executions-bkp-30-08-19.json
 executions-experiments-zv.json
+executions-experiments-zv-group1.json
+executions-experiments-zv-group2.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
