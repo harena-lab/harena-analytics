@@ -5,6 +5,7 @@ executions-experiments-zv-group1.json
 executions-experiments-zv-group2.json
 *.json
 *.jsonl
+*.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
