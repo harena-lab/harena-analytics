@@ -1,0 +1,26 @@
+#!/bin/bash
+
+###############################################################
+#          jupyter/jupyterlab extensions/kernels              #
+###############################################################
+
+# Beaker installation and extension setup
+beakerx install
+jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build 
+jupyter labextension install beakerx-jupyterlab --no-build 
+
+# Table of contents Jupyter Lab Extension
+jupyter labextension install @jupyterlab/toc --no-build 
+
+# Draw.io Jupyter Lab extension
+jupyter labextension install jupyterlab-drawio --no-build 
+
+# Rise Jupyter extension (presentation mode)
+jupyter-nbextension install rise --py --sys-prefix
+jupyter-nbextension enable  rise --py --sys-prefix
+
+# Plotly Jupyter Lab extension
+jupyter labextension install @jupyterlab/plotly-extension --no-build 
+
+# Building everything up for jupyterlab extensions
+jupyter lab build --dev
