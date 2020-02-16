@@ -7,7 +7,7 @@ EKG Hypothesis,"niet evident afwijkend ecg, vroege repolarisatie, mogelijk pta d
 EKG Confidence,55,Case-02,
 Description Hypothesis,"atypische thoracale pijn, niet verdacht voor cardiale ischemie",Case-02,1.0
 Description Confidence,81,Case-02,
-EKG Hypothesis,"diffuus iets opgetrokken st segmenten, mogelijk pericarditis",Case-03,0.5
+EKG Hypothesis,"diffuus iets opgetrokken st segmenten, mogelijk pericarditis",Case-03,0.0
 EKG Confidence,18,Case-03,
 Description Hypothesis,atypische thoracale pijn,Case-03,1.0
 Description Confidence,73,Case-03,

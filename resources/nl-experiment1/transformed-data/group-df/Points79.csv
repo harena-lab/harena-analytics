@@ -39,7 +39,7 @@ EKG Hypothesis,acs,Case-16,1.0
 EKG Confidence,67,Case-16,
 Description Hypothesis,ap,Case-16,1.0
 Description Confidence,16,Case-16,
-EKG Hypothesis,lvh,Case-17,0.5
+EKG Hypothesis,lvh,Case-17,0.0
 EKG Confidence,17,Case-17,
 Description Hypothesis,stress,Case-17,0.5
 Description Confidence,3,Case-17,

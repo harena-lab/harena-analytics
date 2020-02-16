@@ -33,7 +33,7 @@ EKG Hypothesis,nstemi panischemie,Case-16,1.0
 EKG Confidence,89,Case-16,
 Description Hypothesis,angina pectoris,Case-16,1.0
 Description Confidence,86,Case-16,
-EKG Hypothesis,takotsubo cmp,Case-17,0.5
+EKG Hypothesis,takotsubo cmp,Case-17,0.0
 EKG Confidence,81,Case-17,
 Description Hypothesis,stress,Case-17,0.5
 Description Confidence,93,Case-17,

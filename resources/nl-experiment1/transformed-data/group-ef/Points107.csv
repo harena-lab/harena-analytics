@@ -25,7 +25,7 @@ Description Hypothesis,pericarditis met pericardeffusie,Case-09,0.0
 Description Confidence,97,Case-09,
 EKG Hypothesis,niet cardiaal,Case-12,1.0
 EKG Confidence,37,Case-12,
-Description Hypothesis,paroxysmaal af,Case-12,0.5
+Description Hypothesis,paroxysmaal af,Case-12,0.0
 Description Confidence,77,Case-12,
 EKG Hypothesis,mitralisinsufficientie,Case-13,0.0
 EKG Confidence,68,Case-13,

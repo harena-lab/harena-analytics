@@ -25,7 +25,7 @@ Description Hypothesis,acs,Case-09,1.0
 Description Confidence,49,Case-09,
 EKG Hypothesis,.,Case-12,0.0
 EKG Confidence,35,Case-12,
-Description Hypothesis,af,Case-12,0.5
+Description Hypothesis,af,Case-12,0.0
 Description Confidence,51,Case-12,
 EKG Hypothesis,acs,Case-13,1.0
 EKG Confidence,41,Case-13,

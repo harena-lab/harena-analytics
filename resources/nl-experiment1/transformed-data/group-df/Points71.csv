@@ -23,9 +23,9 @@ EKG Hypothesis,acs,Case-09,1.0
 EKG Confidence,91,Case-09,
 Description Hypothesis,acs,Case-09,1.0
 Description Confidence,77,Case-09,
-EKG Hypothesis,svt,Case-12,0.5
+EKG Hypothesis,svt,Case-12,0.0
 EKG Confidence,88,Case-12,
-Description Hypothesis,svt,Case-12,0.5
+Description Hypothesis,svt,Case-12,0.0
 Description Confidence,68,Case-12,
 EKG Hypothesis,acs,Case-13,1.0
 EKG Confidence,87,Case-13,
@@ -39,7 +39,7 @@ EKG Hypothesis,panischemie,Case-16,1.0
 EKG Confidence,87,Case-16,
 Description Hypothesis,acs,Case-16,1.0
 Description Confidence,74,Case-16,
-EKG Hypothesis,cardiale ischemie,Case-17,0.5
+EKG Hypothesis,cardiale ischemie,Case-17,0.0
 EKG Confidence,73,Case-17,
 Description Hypothesis,stress,Case-17,0.5
 Description Confidence,84,Case-17,

@@ -23,11 +23,11 @@ EKG Hypothesis,pneumonie,Case-09,0.0
 EKG Confidence,85,Case-09,
 Description Hypothesis,pneumonie,Case-09,0.0
 Description Confidence,70,Case-09,
-EKG Hypothesis,snel af met conversie pauze,Case-12,0.5
+EKG Hypothesis,snel af met conversie pauze,Case-12,0.0
 EKG Confidence,80,Case-12,
-Description Hypothesis,snel af,Case-12,0.5
+Description Hypothesis,snel af,Case-12,0.0
 Description Confidence,90,Case-12,
-EKG Hypothesis,sinusbradycardie met linker atriumfilatatie,Case-13,0.5
+EKG Hypothesis,sinusbradycardie met linker atriumfilatatie,Case-13,0.0
 EKG Confidence,70,Case-13,
 Description Hypothesis,atypische thoracale pijnklachten,Case-13,0.0
 Description Confidence,70,Case-13,
@@ -39,7 +39,7 @@ EKG Hypothesis,nstemi,Case-16,1.0
 EKG Confidence,80,Case-16,
 Description Hypothesis,ap,Case-16,1.0
 Description Confidence,70,Case-16,
-EKG Hypothesis,lvh met strain en mogelijk subendocardiale ischemie,Case-17,0.5
+EKG Hypothesis,lvh met strain en mogelijk subendocardiale ischemie,Case-17,0.0
 EKG Confidence,75,Case-17,
 Description Hypothesis,reflux,Case-17,0.0
 Description Confidence,70,Case-17,

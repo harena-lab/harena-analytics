@@ -35,7 +35,7 @@ EKG Hypothesis,noncardiac,Case-15,0.0
 EKG Confidence,18,Case-15,
 Description Hypothesis,nstemi,Case-15,1.0
 Description Confidence,23,Case-15,
-EKG Hypothesis,stc met 1e gr blok,Case-16,0.5
+EKG Hypothesis,stc met 1e gr blok,Case-16,0.0
 EKG Confidence,25,Case-16,
 Description Hypothesis,nstemi,Case-16,1.0
 Description Confidence,20,Case-16,

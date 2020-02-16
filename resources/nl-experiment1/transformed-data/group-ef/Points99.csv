@@ -39,7 +39,7 @@ EKG Hypothesis,3 vd of hs stenose,Case-16,1.0
 EKG Confidence,85,Case-16,
 Description Hypothesis,acs,Case-16,1.0
 Description Confidence,90,Case-16,
-EKG Hypothesis,lvh,Case-17,0.5
+EKG Hypothesis,lvh,Case-17,0.0
 EKG Confidence,60,Case-17,
 Description Hypothesis,spanning,Case-17,0.5
 Description Confidence,80,Case-17,

@@ -5,11 +5,11 @@ Description Hypothesis,gastro-intestinaal dd acs,Case-01,0.0
 Description Confidence,50,Case-01,
 EKG Hypothesis,acs,Case-02,0.0
 EKG Confidence,80,Case-02,
-Description Hypothesis,ge dd acs,Case-02,0.5
+Description Hypothesis,ge dd acs,Case-02,0.0
 Description Confidence,50,Case-02,
-EKG Hypothesis,pericarditis dd le,Case-03,0.5
+EKG Hypothesis,pericarditis dd le,Case-03,0.0
 EKG Confidence,49,Case-03,
-Description Hypothesis,le dd acs (scad?),Case-03,0.5
+Description Hypothesis,le dd acs (scad?),Case-03,0.0
 Description Confidence,49,Case-03,
 EKG Hypothesis,pericarditis,Case-07,1.0
 EKG Confidence,92,Case-07,

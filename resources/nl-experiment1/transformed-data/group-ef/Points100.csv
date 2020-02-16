@@ -3,7 +3,7 @@ EKG Hypothesis,doorgemaakt onderwand infarct,Case-01,0.5
 EKG Confidence,60,Case-01,
 Description Hypothesis,mogelijk nstemi,Case-01,1.0
 Description Confidence,53,Case-01,
-EKG Hypothesis,geen cardiale acute pathologie,Case-02,0.5
+EKG Hypothesis,geen cardiale acute pathologie,Case-02,0.0
 EKG Confidence,55,Case-02,
 Description Hypothesis,reflux,Case-02,1.0
 Description Confidence,90,Case-02,

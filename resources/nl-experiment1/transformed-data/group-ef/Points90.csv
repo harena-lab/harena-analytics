@@ -19,9 +19,9 @@ EKG Hypothesis,acs,Case-08,1.0
 EKG Confidence,86,Case-08,
 Description Hypothesis,acs,Case-08,1.0
 Description Confidence,92,Case-08,
-EKG Hypothesis,longembolie,Case-09,0.5
+EKG Hypothesis,longembolie,Case-09,0.0
 EKG Confidence,80,Case-09,
-Description Hypothesis,longembolie,Case-09,0.5
+Description Hypothesis,longembolie,Case-09,0.0
 Description Confidence,95,Case-09,
 EKG Hypothesis,niet cardiaal,Case-12,1.0
 EKG Confidence,72,Case-12,

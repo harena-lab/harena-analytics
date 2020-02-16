@@ -7,7 +7,7 @@ EKG Hypothesis,pericarditis,Case-02,1.0
 EKG Confidence,50,Case-02,
 Description Hypothesis,gastritis/reflux/ ulcer,Case-02,1.0
 Description Confidence,84,Case-02,
-EKG Hypothesis,pericarditis,Case-03,0.5
+EKG Hypothesis,pericarditis,Case-03,0.0
 EKG Confidence,40,Case-03,
 Description Hypothesis,aspecifiek,Case-03,1.0
 Description Confidence,30,Case-03,
@@ -39,7 +39,7 @@ EKG Hypothesis,demand ischemie,Case-16,0.5
 EKG Confidence,42,Case-16,
 Description Hypothesis,ap,Case-16,1.0
 Description Confidence,41,Case-16,
-EKG Hypothesis,strain,Case-17,0.5
+EKG Hypothesis,strain,Case-17,0.0
 EKG Confidence,53,Case-17,
 Description Hypothesis,dhje,Case-17,0.0
 Description Confidence,42,Case-17,

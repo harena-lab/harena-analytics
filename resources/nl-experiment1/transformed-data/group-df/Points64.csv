@@ -23,9 +23,9 @@ EKG Hypothesis,costomyogeen,Case-09,0.0
 EKG Confidence,24,Case-09,
 Description Hypothesis,acs,Case-09,1.0
 Description Confidence,80,Case-09,
-EKG Hypothesis,vadovagaal,Case-12,0.5
+EKG Hypothesis,vadovagaal,Case-12,0.0
 EKG Confidence,99,Case-12,
-Description Hypothesis,vasovagaal,Case-12,0.5
+Description Hypothesis,vasovagaal,Case-12,0.0
 Description Confidence,95,Case-12,
 EKG Hypothesis,iap,Case-13,1.0
 EKG Confidence,85,Case-13,

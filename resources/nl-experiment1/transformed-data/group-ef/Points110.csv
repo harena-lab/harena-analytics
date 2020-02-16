@@ -19,7 +19,7 @@ EKG Hypothesis,hyperttensie,Case-08,0.0
 EKG Confidence,65,Case-08,
 Description Hypothesis,acs,Case-08,1.0
 Description Confidence,65,Case-08,
-EKG Hypothesis,pulmonale belasting,Case-09,0.5
+EKG Hypothesis,pulmonale belasting,Case-09,0.0
 EKG Confidence,40,Case-09,
 Description Hypothesis,ischemie,Case-09,1.0
 Description Confidence,38,Case-09,
@@ -39,7 +39,7 @@ EKG Hypothesis,als 3vd,Case-16,1.0
 EKG Confidence,76,Case-16,
 Description Hypothesis,acs,Case-16,1.0
 Description Confidence,80,Case-16,
-EKG Hypothesis,strain,Case-17,0.5
+EKG Hypothesis,strain,Case-17,0.0
 EKG Confidence,72,Case-17,
 Description Hypothesis,takotsubo,Case-17,0.5
 Description Confidence,86,Case-17,

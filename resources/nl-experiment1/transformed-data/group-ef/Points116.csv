@@ -7,7 +7,7 @@ EKG Hypothesis,stemi inferior,Case-02,0.0
 EKG Confidence,70,Case-02,
 Description Hypothesis,stemi,Case-02,0.0
 Description Confidence,84,Case-02,
-EKG Hypothesis,pericarditis,Case-03,0.5
+EKG Hypothesis,pericarditis,Case-03,0.0
 EKG Confidence,59,Case-03,
 Description Hypothesis,tendomyogeen (vroege repolarisatie),Case-03,1.0
 Description Confidence,70,Case-03,
@@ -19,13 +19,13 @@ EKG Hypothesis,panischemie,Case-08,0.5
 EKG Confidence,70,Case-08,
 Description Hypothesis,panischemie (elevatie avr),Case-08,0.5
 Description Confidence,80,Case-08,
-EKG Hypothesis,"sinustach, rechteras, le?",Case-09,0.5
+EKG Hypothesis,"sinustach, rechteras, le?",Case-09,0.0
 EKG Confidence,55,Case-09,
 Description Hypothesis,tachycardie bij lwi/pneumonie,Case-09,0.0
 Description Confidence,70,Case-09,
 EKG Hypothesis,gb,Case-12,1.0
 EKG Confidence,55,Case-12,
-Description Hypothesis,klachten bij conversie van af naar sr,Case-12,0.5
+Description Hypothesis,klachten bij conversie van af naar sr,Case-12,0.0
 Description Confidence,75,Case-12,
 EKG Hypothesis,nstemi (neg t inf),Case-13,1.0
 EKG Confidence,70,Case-13,

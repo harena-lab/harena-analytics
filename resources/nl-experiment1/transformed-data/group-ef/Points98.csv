@@ -5,9 +5,9 @@ Description Hypothesis,nstemi,Case-01,1.0
 Description Confidence,73,Case-01,
 EKG Hypothesis,pericarditis,Case-02,1.0
 EKG Confidence,46,Case-02,
-EKG Hypothesis,pericarditis,Case-03,0.5
+EKG Hypothesis,pericarditis,Case-03,0.0
 EKG Confidence,44,Case-03,
-Description Hypothesis,pericarditis,Case-03,0.5
+Description Hypothesis,pericarditis,Case-03,0.0
 Description Confidence,60,Case-03,
 EKG Hypothesis,pericarditis,Case-07,1.0
 EKG Confidence,40,Case-07,

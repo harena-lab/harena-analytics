@@ -39,7 +39,7 @@ EKG Hypothesis,acs-nstemi (panischemie,Case-16,1.0
 EKG Confidence,100,Case-16,
 Description Hypothesis,iap,Case-16,1.0
 Description Confidence,41,Case-16,
-EKG Hypothesis,tako-tsubo (cmp),Case-17,0.5
+EKG Hypothesis,tako-tsubo (cmp),Case-17,0.0
 EKG Confidence,61,Case-17,
 Description Hypothesis,slokdarmspasme,Case-17,0.0
 Description Confidence,61,Case-17,

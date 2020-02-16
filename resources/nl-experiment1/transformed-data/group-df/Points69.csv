@@ -25,7 +25,7 @@ Description Hypothesis,ambulant doorgemaakt infarct/ nstemi,Case-09,0.5
 Description Confidence,58,Case-09,
 EKG Hypothesis,acs,Case-12,0.0
 EKG Confidence,33,Case-12,
-Description Hypothesis,symptomatisch af,Case-12,0.5
+Description Hypothesis,symptomatisch af,Case-12,0.0
 Description Confidence,66,Case-12,
 EKG Hypothesis,nstemi,Case-13,1.0
 EKG Confidence,67,Case-13,

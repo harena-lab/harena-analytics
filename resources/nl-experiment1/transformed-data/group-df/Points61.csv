@@ -23,9 +23,9 @@ EKG Hypothesis,acs,Case-09,1.0
 EKG Confidence,84,Case-09,
 Description Hypothesis,acs,Case-09,1.0
 Description Confidence,75,Case-09,
-EKG Hypothesis,transient tachycardia,Case-12,0.5
+EKG Hypothesis,transient tachycardia,Case-12,0.0
 EKG Confidence,60,Case-12,
-Description Hypothesis,afib,Case-12,0.5
+Description Hypothesis,afib,Case-12,0.0
 Description Confidence,50,Case-12,
 EKG Hypothesis,acs,Case-13,1.0
 EKG Confidence,90,Case-13,

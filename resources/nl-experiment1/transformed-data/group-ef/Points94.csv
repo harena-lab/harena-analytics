@@ -7,7 +7,7 @@ EKG Hypothesis,early repolarization inferior,Case-02,1.0
 EKG Confidence,50,Case-02,
 Description Hypothesis,pyrosis,Case-02,1.0
 Description Confidence,70,Case-02,
-EKG Hypothesis,pericarditis,Case-03,0.5
+EKG Hypothesis,pericarditis,Case-03,0.0
 EKG Confidence,39,Case-03,
 Description Hypothesis,costomyalgeen,Case-03,1.0
 Description Confidence,60,Case-03,
@@ -19,7 +19,7 @@ EKG Hypothesis,acs,Case-08,1.0
 EKG Confidence,60,Case-08,
 Description Hypothesis,acs,Case-08,1.0
 Description Confidence,80,Case-08,
-EKG Hypothesis,longembolie,Case-09,0.5
+EKG Hypothesis,longembolie,Case-09,0.0
 EKG Confidence,76,Case-09,
 Description Hypothesis,acs,Case-09,1.0
 Description Confidence,51,Case-09,

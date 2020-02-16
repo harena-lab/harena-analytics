@@ -27,7 +27,7 @@ EKG Hypothesis,acs dd gastro,Case-12,0.0
 EKG Confidence,57,Case-12,
 Description Hypothesis,acs,Case-12,0.0
 Description Confidence,60,Case-12,
-EKG Hypothesis,geen acs ecg.. markers afwachten,Case-13,0.5
+EKG Hypothesis,geen acs ecg.. markers afwachten,Case-13,0.0
 EKG Confidence,43,Case-13,
 Description Hypothesis,acs,Case-13,1.0
 Description Confidence,73,Case-13,
