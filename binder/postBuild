@@ -23,4 +23,4 @@ jupyter-nbextension enable  rise --py --sys-prefix
 jupyter labextension install @jupyterlab/plotly-extension --no-build 
 
 # Building everything up for jupyterlab extensions
-jupyter lab build --dev
+jupyter lab build
